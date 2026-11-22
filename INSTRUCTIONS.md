@@ -71,4 +71,4 @@ One folder named `facets-r2-<coder>-<the date you started, YYYYMMDD>`, for examp
   - the date and time you started and finished;
   - anything you did differently from this page, and why.
 
-Hand the folder in privately. On the Explorer cluster, copy it into `/projects/aiskunks/irreducibly-human-facets/hand-ins/`, a drop box you can write to but not read. Anywhere else, send it to Bear or to whoever gave you the kit. Don't push it to any repository, don't attach it to an issue or pull request, and don't open anyone else's hand-in.
+Hand the folder in privately. On the Explorer cluster, make it inside the drop box `/projects/aiskunks/irreducibly-human-facets/hand-ins/` with `mkdir`, then copy your files into it with plain `cp -R`. README.md, Contributing, step 4 has the commands. Anywhere else, send it to Bear or to whoever gave you the kit. Don't push it to any repository, don't attach it to an issue or pull request, and don't open anyone else's hand-in.

@@ -22,7 +22,7 @@ All four ways give every coder the same text: the guide, the same instructions, 
 - **One copy per coder.** Run `scripts/make_agent_copy.sh <coder-name> <parent folder>`. It makes `facets-r2-kit-<coder-name>/` with an empty hand-in folder inside and leaves `hand-ins/` out. Put the parent folder outside the project that holds this kit, so an agent can't wander into earlier codes.
 - **No channel between coders.** Run each agent as its own session. Don't give it messaging tools, a shared folder, a shared chat, or another coder's name or path. If one program launches several agents, it must never pass one agent's output or notes to another.
 - **One fresh context per posting.** A new conversation or headless call for each of the 12 postings, so no decision carries over.
-- **Collect, then compare.** Coders hand their folders in privately ([Contributing](#contributing), step 4), and only once they have finished. On Explorer, `hand-ins/` is a drop box: coders can copy into it but can't list or read it. Nothing is compared until everyone is done.
+- **Collect, then compare.** Coders hand their folders in privately ([Contributing](#contributing), step 4), and only once they have finished. On Explorer, `hand-ins/` is a drop box: coders can hand in to it but can't list it or read anyone else's folder. Nothing is compared until everyone is done.
 
 ## What's here
 
@@ -95,7 +95,15 @@ Round 2 is open. The most useful thing you can give it is another independent co
 1. **Say you're coding.** Open an issue titled `Round 2 coder: <coder>`. Name the model as it will be served, or, for a person, give a coder code such as `ta2` rather than a name. The issue stops two people running the same coder, and it is how you ask for the lines.
 2. **Get the lines.** Members of the AI Skunks group on the Explorer cluster have the whole kit, lines included, at `/projects/aiskunks/irreducibly-human-facets/`. Everyone else gets `handout-private/` from Bear in reply to the issue. Never paste the lines into an issue or pull request.
 3. **Make your own copy and code it.** Run `scripts/make_agent_copy.sh <coder> <parent folder>`, then use the way in that fits ([Pick your way in](#pick-your-way-in)). From then until you hand in, follow [INSTRUCTIONS.md](INSTRUCTIONS.md) section 1: don't read this repository's issues or pull requests, and don't look at anyone else's hand-in.
-4. **Hand it in privately.** On Explorer, copy your folder into `/projects/aiskunks/irreducibly-human-facets/hand-ins/`. You can write to that folder, but only Bear can list or read it. Anywhere else, comment "done" on your issue and Bear will tell you where to send the folder. Don't attach a hand-in to an issue or pull request: it quotes the postings, and other coders would see your codes.
+4. **Hand it in privately.** On Explorer, make your folder inside the drop box with `mkdir`, then copy your files into it:
+
+   ```bash
+   H=/projects/aiskunks/irreducibly-human-facets/hand-ins
+   mkdir $H/facets-r2-<coder>-<YYYYMMDD>
+   cp -R my-hand-in/facets-r2-<coder>-<YYYYMMDD>/. $H/facets-r2-<coder>-<YYYYMMDD>/
+   ```
+
+   Nobody can list the drop box, and a folder made there is closed to everyone except you and Bear. Use plain `cp -R`, not `cp -a` or `rsync -a`, which would carry your own permissions over. Anywhere else, comment "done" on your issue and Bear will tell you where to send the folder. Don't attach a hand-in to an issue or pull request: it quotes the postings, and other coders would see your codes.
 
 ### Improve the scripts
 
