@@ -1,0 +1,28 @@
+# Codebook
+
+{codebook}
+
+# Your task
+
+Code every numbered line of the posting below. For each line give:
+- item: the line's id, exactly as shown
+- mode: DO, KNOW, BE, SIT or OUT
+- facet: the primary facet code (PA, ES, SP, MS, CC, CD, EW, NH). Use "-" only for OUT lines, or for a SIT
+  line whose setting points to no facet.
+- facet2: an optional second facet code, or "" for none. Use "" whenever facet is "-".
+- conf: H, M or L, your confidence in the facet code
+- cue: the few words in the line that decided the code (at most 12 words, copied from the line)
+- note: a short reason (at most 15 words)
+
+Return exactly one entry per line, in order, and no others.
+
+# Posting
+
+Title: {title}
+Company: {company}
+Section headings found in the posting: {heads}
+
+Lines (only the duty and requirement sections were kept; some perks or legal lines got through and should be
+coded OUT):
+
+{lines}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["codes"],
+  "properties": {
+    "codes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["item", "mode", "facet", "facet2", "conf", "cue", "note"],
+        "properties": {
+          "item": {"type": "string"},
+          "mode": {"enum": ["DO", "KNOW", "BE", "SIT", "OUT"]},
+          "facet": {"enum": ["PA", "ES", "SP", "MS", "CC", "CD", "EW", "NH", "-"]},
+          "facet2": {"enum": ["", "PA", "ES", "SP", "MS", "CC", "CD", "EW", "NH"]},
+          "conf": {"enum": ["H", "M", "L"]},
+          "cue": {"type": "string"},
+          "note": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Job-ad text and anything that quotes it never goes into a repository.
+handout-private/*
+!handout-private/README.md
+hand-ins/*
+!hand-ins/README.md
+comparison.md
+disagreements.tsv
+
+# A coder's own work, if they code inside a clone: it quotes the postings,
+# and pushing it would show other coders the codes.
+prompts.jsonl
+*.jsonl
+facets-r2-*/
+my-hand-in/
+replies/
+codes.tsv
+report.json
+coding-sheet.*
+
+__pycache__/
