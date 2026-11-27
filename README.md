@@ -6,11 +6,11 @@
 
 **We're inviting coders.** Round 2 needs independent readers, people and AI models alike, to code 208 lines from 12 job postings with the same written guide. You don't need to know the project to help. You need about two hours, or a model you can run. See [Contributing](#contributing).
 
-> **Coding in round 2?** Read this page, then [INSTRUCTIONS.md](INSTRUCTIONS.md), then code. Leave the paper, its issues and this repository's issues until you have handed in. The results are withheld until round 2 closes so that every coder works blind.
+> **Coding in round 2?** Read this page, then [INSTRUCTIONS.md](INSTRUCTIONS.md), then code. Leave the paper, its issues and this repository's issues until you have handed in. The paper's draft reports interim results, and reading them first would make your coding no longer independent.
 
 ## What this is about
 
-AI is changing which parts of work people do. The [Irreducibly Human framework](https://github.com/nikbearbrown/Irreducibly-Human/blob/aa9f9ff65bf710519be6496486a04f3197a6d22e/README.md#the-taxonomy) sorts human capacity into seven tiers by how well machines handle them. At one end is Pattern & Association, where AI is already stronger than people. The others include judging whether work is right, finding out why something happens, working through relationships and institutions, and owning decisions about what is worth doing. This project calls the seven **facets** and uses them as labels, not as a ranking.
+AI is changing which parts of work people do. The [Irreducibly Human framework](https://github.com/nikbearbrown/Irreducibly-Human/blob/aa9f9ff65bf710519be6496486a04f3197a6d22e/README.md#the-taxonomy) describes seven facets of human capacity, and how well machines handle each. At one end is Pattern & Association, where AI is already stronger than people. The others include judging whether work is right, finding out why something happens, working through relationships and institutions, and owning decisions about what is worth doing. This project uses the facets as labels for kinds of work, not as a ranking.
 
 To ask what jobs need from people in these terms, you need a description of jobs that can show all seven. The standard US source, the [O\*NET database](https://www.onetcenter.org/content.html), describes jobs partly through a list of 52 abilities. When we mapped that list onto the facets, almost all of it fell in the first two, Pattern & Association and Embodied & Sensorimotor. That tells us how the abilities list was built. It doesn't tell us whether jobs need the other facets.
 
@@ -44,13 +44,13 @@ The kind of statement, the **mode**, matters as much as the facet. A line that n
 | 1, development | 12, one from each of 12 job families, from a November 2026 snapshot of company job boards | 240 | Done. The guide was written while coding these lines, then frozen. |
 | 2, replication (this kit) | 12 fresh postings from 12 other employers, one per family again | 208 | **Open.** Many independent coders, compared once all have handed in. |
 
-Two Claude models, Sonnet 5.5 and Opus 5.5, coded round 2 first, as the kit's test. Their codes stay sealed until round 2 closes. What's missing is people, and models from other providers.
+Two Claude models, Sonnet 5.5 and Opus 5.5, coded round 2 first, as the kit's test. Their codes stay private until round 2 closes. The paper reports their agreement as interim results. What's missing is people, and models from other providers.
 
 The same seven facets are also being applied to course syllabi, with a separate guide for evidence such as what a course grades. That work is described in the paper. It isn't part of this kit.
 
 ## The paper
 
-***Reading Work Through Seven Facets: a coding protocol for job postings and syllabi***, led by Nik Bear Brown, is part of [Humanitarians AI's research](https://github.com/nikbearbrown/hai-research). Its working draft lives in its own repository, [reading-work-through-seven-facets](https://github.com/nikbearbrown/reading-work-through-seven-facets), which has the paper's own contributor guide and task list. The public draft covers the method and how it will be evaluated. Results are added once round 2 closes. If you are coding, read the paper after you hand in.
+***Reading Work Through Seven Facets: a coding protocol for job postings and syllabi***, led by Nik Bear Brown, is part of [Humanitarians AI's research](https://github.com/nikbearbrown/hai-research). Its working draft lives in its own repository, [reading-work-through-seven-facets](https://github.com/nikbearbrown/reading-work-through-seven-facets), which has the paper's own contributor guide and task list. Its draft covers the whole study, with interim results from the Claude coders. If you are coding, read it only after you hand in.
 
 ## What needs to be done
 
