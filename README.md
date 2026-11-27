@@ -50,7 +50,7 @@ The same seven facets are also being applied to course syllabi, with a separate 
 
 ## The paper
 
-***Reading Work Through Seven Facets: a coding protocol for job postings and syllabi***, led by Nik Bear Brown, is part of [Humanitarians AI's research](https://github.com/nikbearbrown/hai-research). Its working draft lives in its own repository, [reading-work-through-seven-facets](https://github.com/nikbearbrown/reading-work-through-seven-facets), which has the paper's own contributor guide and task list. Its draft covers the whole study, with interim results from the Claude coders. If you are coding, read it only after you hand in.
+***Reading Work Through Seven Facets: mapping job postings and work concepts to the Irreducibly Human facets***, led by Nik Bear Brown, is part of [Humanitarians AI's research](https://github.com/nikbearbrown/hai-research). Its working draft lives in its own repository, [reading-work-through-seven-facets](https://github.com/nikbearbrown/reading-work-through-seven-facets), which has the paper's own contributor guide and task list. It builds a public [facet map](https://github.com/nikbearbrown/reading-work-through-seven-facets/tree/main/facet-map) from posting phrases and work concepts to the facets, and the codes from this kit are the evidence the map is checked against. Its draft covers the whole study, with interim results from the Claude coders. If you are coding, read it only after you hand in.
 
 ## What needs to be done
 
